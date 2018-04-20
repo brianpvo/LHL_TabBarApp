@@ -25,6 +25,7 @@
                         <segue destination="L89-pb-XvA" kind="relationship" relationship="viewControllers" id="aCj-cu-RUx"/>
                         <segue destination="toU-fa-aoP" kind="relationship" relationship="viewControllers" id="d3T-Wa-WRg"/>
                         <segue destination="cav-L0-uoT" kind="relationship" relationship="viewControllers" id="4pn-Pb-Hni"/>
+                        <segue destination="54K-jt-GoE" kind="relationship" relationship="viewControllers" id="gyh-Wy-ZjQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Qs-8L-Ake" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -94,6 +95,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sew-5O-1xA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="247" y="1027"/>
+        </scene>
+        <!--Edge-->
+        <scene sceneID="eI2-sO-K1w">
+            <objects>
+                <viewController id="54K-jt-GoE" customClass="EdgeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GFb-PC-hAU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TzA-Eb-OvY">
+                                <rect key="frame" x="352" y="191" width="304" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96966210200000003" green="1" blue="0.54860756960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="59n-Cz-9O3" appends="YES" id="pC4-lp-WCH"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.063947811620000003" green="1" blue="0.005335948771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="gkI-lV-e55"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Edge" id="5P2-ws-ftp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1qp-G9-oyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="59n-Cz-9O3">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="edgeGesture:" destination="54K-jt-GoE" id="5Hd-vV-Kxw"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1101.5999999999999" y="1083.5082458770617"/>
         </scene>
         <!--Pan-->
         <scene sceneID="mnr-k5-oJh">
