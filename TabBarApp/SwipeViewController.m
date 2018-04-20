@@ -62,16 +62,6 @@
         default:
             break;
     }
-//    switch (sender.state) {
-//        case UIGestureRecognizerStateEnded: {
-//            [UIView animateWithDuration:0.5 animations:^{
-//                self.whiteView.frame = CGRectMake(self.view.frame.origin.x, CGRectGetMidY(self.view.bounds), self.view.frame.size.width - 100, 50);
-//            }];
-//            break;
-//        }
-//        default:
-//            break;
-//    }
 }
 
 @end

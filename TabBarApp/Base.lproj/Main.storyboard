@@ -24,6 +24,7 @@
                         <segue destination="D2v-bu-oP6" kind="relationship" relationship="viewControllers" id="m1S-7H-9ra"/>
                         <segue destination="L89-pb-XvA" kind="relationship" relationship="viewControllers" id="aCj-cu-RUx"/>
                         <segue destination="toU-fa-aoP" kind="relationship" relationship="viewControllers" id="d3T-Wa-WRg"/>
+                        <segue destination="cav-L0-uoT" kind="relationship" relationship="viewControllers" id="4pn-Pb-Hni"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Qs-8L-Ake" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -45,6 +46,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pK-8v-mXY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="561" y="278"/>
+        </scene>
+        <!--Rotate-->
+        <scene sceneID="Yqe-vj-wrc">
+            <objects>
+                <viewController id="cav-L0-uoT" customClass="RotateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FbG-7Z-gcc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="U2S-Mz-Skm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotate" image="item5" id="g7X-4m-XP9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WX8-Jg-LKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1294" y="272"/>
         </scene>
         <!--Swipe-->
         <scene sceneID="AwQ-wt-okh">
@@ -116,5 +133,6 @@
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>
