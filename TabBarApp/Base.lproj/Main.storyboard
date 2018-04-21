@@ -20,12 +20,12 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="54K-jt-GoE" kind="relationship" relationship="viewControllers" id="gyh-Wy-ZjQ"/>
                         <segue destination="VEd-L0-Ssd" kind="relationship" relationship="viewControllers" id="ZUV-kM-JE2"/>
                         <segue destination="D2v-bu-oP6" kind="relationship" relationship="viewControllers" id="m1S-7H-9ra"/>
                         <segue destination="L89-pb-XvA" kind="relationship" relationship="viewControllers" id="aCj-cu-RUx"/>
                         <segue destination="toU-fa-aoP" kind="relationship" relationship="viewControllers" id="d3T-Wa-WRg"/>
                         <segue destination="cav-L0-uoT" kind="relationship" relationship="viewControllers" id="4pn-Pb-Hni"/>
-                        <segue destination="54K-jt-GoE" kind="relationship" relationship="viewControllers" id="gyh-Wy-ZjQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Qs-8L-Ake" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -109,23 +109,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96966210200000003" green="1" blue="0.54860756960000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="59n-Cz-9O3" appends="YES" id="pC4-lp-WCH"/>
-                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.063947811620000003" green="1" blue="0.005335948771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="gkI-lV-e55"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Edge" id="5P2-ws-ftp"/>
+                    <connections>
+                        <outlet property="swipeView" destination="TzA-Eb-OvY" id="w2O-3R-r8h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qp-G9-oyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="59n-Cz-9O3">
-                    <rectEdge key="edges" left="YES"/>
-                    <connections>
-                        <action selector="edgeGesture:" destination="54K-jt-GoE" id="5Hd-vV-Kxw"/>
-                    </connections>
-                </screenEdgePanGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1101.5999999999999" y="1083.5082458770617"/>
         </scene>
